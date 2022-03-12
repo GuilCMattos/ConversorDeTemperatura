@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperaturas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">
+             Conversor de Temperaturas 
+        </h1>
+        <p class="subTitle">
+            🌡️ Selecione a primeira opção:
+        </p>
+        <input class="opc" type="radio" name="firstOp" id="Celsius1" > <span>Celsius</span>
+        <input class="opc" type="radio" name="firstOp" id="Farenheit1"> <span>Fahrenheit</span>
+        <input class="opc" type="radio" name="firstOp" id="Kelvin1"> <span>Kelvin</span>
+
+        <p class="subTitle">
+            🌡️ Selecione a segunda opção:
+        </p>
+
+        <input class="opc" type="radio" name="secondOp" id="Celsius2" > Celsius
+        <input class="opc" type="radio" name="secondOp" id="Farenheit2"> Fahrenheit
+        <input class="opc" type="radio" name="secondOp" id="Kelvin2"> Kelvin
+        
+
+        <p>
+            <input class="graus" type="number" name="graus" id="grausConvert"> <br>
+            <button class="botao" type="submit" onclick="Calcule()">Calcular</button>
+        </p>
+
+        <div id="res"></div>
+
+        <footer>
+            <p>Desenvolvido por <a href="github.com/GuilCMattos">Guilherme Mattos</a></p>
+        </footer>
+    </div>
+
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>

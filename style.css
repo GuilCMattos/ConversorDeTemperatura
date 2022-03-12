@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+* { 
+    margin: 0px;
+    padding:0px;
+}
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://i.gifer.com/tSH.gif);
+    background-repeat: repeat;
+    
+
+}
+
+.container { 
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30vh;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.24) ;
+}
+
+.subTitle { 
+    font-weight: bold;
+    padding: 20px;
+}
+.opc { 
+    margin-left: 7px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+       
+    }
+
+.graus { 
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    padding: 5px;
+   
+    
+}
+
+.botao { 
+    font-size:1.2em;
+    background-color: rgb(245, 40, 40);
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px 46px 3px 46px;
+    border-radius: 3px;
+    border: none;
+    
+}
+
+.botao:hover { 
+    background-color: #25f8ff;
+}
+
+#res { 
+    margin-top: 15px;
+    font-size: 1.4em;
+}
+
+footer p { 
+    text-align: center;
+    
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+footer a { 
+    text-decoration: none;
+    color: rgb(231, 38, 38);
+
+    
+}
+
+footer a:hover {
+    color: #25f8ff;
+    font-weight: bold;
+}
